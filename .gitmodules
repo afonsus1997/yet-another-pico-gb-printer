@@ -1,0 +1,3 @@
+[submodule "hardware/yet-another-pico-gb-printer/libraries/gekkio-kicad-libs"]
+	path = hardware/yet-another-pico-gb-printer/libraries/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs
