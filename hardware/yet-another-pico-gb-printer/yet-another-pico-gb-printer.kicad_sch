@@ -7259,7 +7259,13 @@
 		(uuid "1fc887d3-76fd-4418-a95d-133fba35a821")
 	)
 	(junction
-		(at 377.19 33.02)
+		(at 341.63 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23c42ad5-eb9d-4d26-9765-1bdbb57d457c")
+	)
+	(junction
+		(at 372.11 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26940e31-b338-4e63-a32e-be714a9693a2")
@@ -7271,13 +7277,19 @@
 		(uuid "2787b625-f62e-4e24-9078-59b1ff69e6f9")
 	)
 	(junction
+		(at 389.89 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a4341d9-a709-4825-a8a9-adc948c67e92")
+	)
+	(junction
 		(at 189.23 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2db5d880-e755-4578-859c-4dbb246732da")
 	)
 	(junction
-		(at 323.85 33.02)
+		(at 318.77 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f6f690c-3717-4820-bd8a-501e71f18511")
@@ -7367,7 +7379,7 @@
 		(uuid "5e264bb6-8cc6-429d-82b0-2398ab4eaeaf")
 	)
 	(junction
-		(at 386.08 33.02)
+		(at 381 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fcce16d-02da-454c-b7d9-97e49bc8191a")
@@ -7397,7 +7409,13 @@
 		(uuid "6bdb6d72-61d5-43f6-aeb6-e50db5c07224")
 	)
 	(junction
-		(at 351.79 33.02)
+		(at 389.89 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "727bc99d-4786-4e79-a968-1d3f7ec7e6f3")
+	)
+	(junction
+		(at 346.71 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76a66e8e-8d18-45af-9e58-aae303b4af3d")
@@ -7409,7 +7427,7 @@
 		(uuid "79cef4e2-7070-40ba-8363-19238828b77f")
 	)
 	(junction
-		(at 323.85 38.1)
+		(at 318.77 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b30079d-055b-4ef0-9919-b9f768554fe4")
@@ -7421,7 +7439,7 @@
 		(uuid "7b5a9320-08f4-4312-ac5c-7d2cbd3d8a80")
 	)
 	(junction
-		(at 386.08 38.1)
+		(at 381 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ec21853-c72a-4705-beac-7213bc64a1e5")
@@ -7457,7 +7475,7 @@
 		(uuid "8d148509-abd7-4ecb-b941-3fadfe7505cc")
 	)
 	(junction
-		(at 377.19 38.1)
+		(at 372.11 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d37dc4a-3803-4e44-992d-d5a1213e5433")
@@ -7475,7 +7493,7 @@
 		(uuid "94c79da4-98b8-44a6-bf2e-504c07a7b93b")
 	)
 	(junction
-		(at 313.69 38.1)
+		(at 308.61 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b94ca2a-872a-4f78-a2d8-aaae7ac62772")
@@ -7505,7 +7523,7 @@
 		(uuid "a914ef94-feda-45a1-80d6-cc870a197df4")
 	)
 	(junction
-		(at 351.79 38.1)
+		(at 346.71 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa3784bd-a2c2-4166-84e4-78e8627351a4")
@@ -7637,7 +7655,7 @@
 		(uuid "ef55efdf-41f7-4a46-b99f-a20ab16ec2ef")
 	)
 	(junction
-		(at 313.69 33.02)
+		(at 308.61 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0d76a81-c1dc-4ae3-90f0-c7bdf0c45467")
@@ -7812,6 +7830,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 163.83) (xy 341.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d4cae4-a306-40e3-b0eb-01dc43fc115c")
+	)
+	(wire
+		(pts
 			(xy 165.1 140.97) (xy 165.1 144.78)
 		)
 		(stroke
@@ -7879,6 +7907,16 @@
 			(type default)
 		)
 		(uuid "104ed1b5-d381-4767-a3ae-7cd4f5a929f2")
+	)
+	(wire
+		(pts
+			(xy 389.89 38.1) (xy 398.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f1b346-47e0-44fc-bfb0-ad68151db378")
 	)
 	(wire
 		(pts
@@ -8072,7 +8110,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 33.02) (xy 377.19 33.02)
+			(xy 363.22 33.02) (xy 372.11 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8232,7 +8270,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 33.02) (xy 360.68 33.02)
+			(xy 346.71 33.02) (xy 355.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8752,7 +8790,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 38.1) (xy 360.68 38.1)
+			(xy 346.71 38.1) (xy 355.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8762,7 +8800,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 38.1) (xy 313.69 38.1)
+			(xy 299.72 38.1) (xy 308.61 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8772,7 +8810,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 33.02) (xy 386.08 33.02)
+			(xy 372.11 33.02) (xy 381 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8782,7 +8820,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 33.02) (xy 394.97 33.02)
+			(xy 381 33.02) (xy 389.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9072,7 +9110,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 38.1) (xy 377.19 38.1)
+			(xy 363.22 38.1) (xy 372.11 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9112,7 +9150,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 38.1) (xy 323.85 38.1)
+			(xy 308.61 38.1) (xy 318.77 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9162,7 +9200,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 38.1) (xy 394.97 38.1)
+			(xy 381 38.1) (xy 389.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9182,7 +9220,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 38.1) (xy 386.08 38.1)
+			(xy 372.11 38.1) (xy 381 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9202,7 +9240,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 33.02) (xy 313.69 33.02)
+			(xy 299.72 33.02) (xy 308.61 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9472,7 +9510,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 38.1) (xy 332.74 38.1)
+			(xy 318.77 38.1) (xy 327.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9672,7 +9710,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 33.02) (xy 332.74 33.02)
+			(xy 318.77 33.02) (xy 327.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9752,7 +9790,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 38.1) (xy 351.79 38.1)
+			(xy 336.55 38.1) (xy 346.71 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9859,6 +9897,16 @@
 			(type default)
 		)
 		(uuid "bfc30b42-ada4-448e-8039-aa74d79c4d3f")
+	)
+	(wire
+		(pts
+			(xy 389.89 33.02) (xy 398.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c068ea0f-4043-4fbf-906d-8dd9f40e39a7")
 	)
 	(wire
 		(pts
@@ -10122,7 +10170,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 33.02) (xy 323.85 33.02)
+			(xy 308.61 33.02) (xy 318.77 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10692,7 +10740,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 33.02) (xy 351.79 33.02)
+			(xy 336.55 33.02) (xy 346.71 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12022,7 +12070,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 368.3 35.56 0)
+		(at 363.22 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12031,7 +12079,7 @@
 		(fields_autoplaced yes)
 		(uuid "06c2b6b9-6bef-424d-8ba7-7c013130d39a")
 		(property "Reference" "C12"
-			(at 370.84 34.2963 0)
+			(at 365.76 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12040,7 +12088,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 370.84 36.8363 0)
+			(at 365.76 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12049,7 +12097,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 368.3 35.56 0)
+			(at 363.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12058,7 +12106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 35.56 0)
+			(at 363.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +12115,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 368.3 35.56 0)
+			(at 363.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +12124,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 368.3 35.56 0)
+			(at 363.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13041,7 +13089,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 341.63 35.56 0)
+		(at 336.55 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13050,7 +13098,7 @@
 		(fields_autoplaced yes)
 		(uuid "1caa8519-6350-4146-b149-6f997f0277f0")
 		(property "Reference" "C7"
-			(at 344.17 34.2963 0)
+			(at 339.09 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,7 +13107,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 344.17 36.8363 0)
+			(at 339.09 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,7 +13116,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 341.63 35.56 0)
+			(at 336.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13077,7 +13125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 341.63 35.56 0)
+			(at 336.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13086,7 +13134,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 341.63 35.56 0)
+			(at 336.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,7 +13143,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 341.63 35.56 0)
+			(at 336.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +13489,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 313.69 35.56 0)
+		(at 308.61 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13450,7 +13498,7 @@
 		(fields_autoplaced yes)
 		(uuid "258ca827-49c4-4554-809b-1887a41cfbe9")
 		(property "Reference" "C4"
-			(at 316.23 34.2963 0)
+			(at 311.15 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +13507,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 316.23 36.8363 0)
+			(at 311.15 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,7 +13516,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 313.69 35.56 0)
+			(at 308.61 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 313.69 35.56 0)
+			(at 308.61 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13534,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 313.69 35.56 0)
+			(at 308.61 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13495,7 +13543,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 313.69 35.56 0)
+			(at 308.61 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14747,7 +14795,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 394.97 35.56 0)
+		(at 398.78 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14756,7 +14804,7 @@
 		(fields_autoplaced yes)
 		(uuid "41b83284-a226-4935-97b2-9bbeaaba9a36")
 		(property "Reference" "C19"
-			(at 397.51 34.2963 0)
+			(at 401.32 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14765,7 +14813,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 397.51 36.8363 0)
+			(at 401.32 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14774,7 +14822,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 394.97 35.56 0)
+			(at 398.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14783,7 +14831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 35.56 0)
+			(at 398.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,7 +14840,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 394.97 35.56 0)
+			(at 398.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14801,7 +14849,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 394.97 35.56 0)
+			(at 398.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14977,7 +15025,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 377.19 33.02 0)
+		(at 372.11 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14986,7 +15034,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c81815-5c14-479e-bbd4-39c802af66b7")
 		(property "Reference" "#PWR075"
-			(at 377.19 36.83 0)
+			(at 372.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14995,7 +15043,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 377.19 27.94 0)
+			(at 372.11 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +15051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 33.02 0)
+			(at 372.11 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,7 +15060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 33.02 0)
+			(at 372.11 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15021,7 +15069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 377.19 33.02 0)
+			(at 372.11 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +15796,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 332.74 35.56 0)
+		(at 327.66 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15757,7 +15805,7 @@
 		(fields_autoplaced yes)
 		(uuid "59e5d21c-5330-416e-a3a6-70b5ffe61718")
 		(property "Reference" "C6"
-			(at 335.28 34.2963 0)
+			(at 330.2 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15814,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 335.28 36.8363 0)
+			(at 330.2 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15823,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 332.74 35.56 0)
+			(at 327.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 35.56 0)
+			(at 327.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15841,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 332.74 35.56 0)
+			(at 327.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15850,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 332.74 35.56 0)
+			(at 327.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15827,7 +15875,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 313.69 33.02 0)
+		(at 308.61 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15836,7 +15884,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b45a2f4-65d7-4e3b-95fa-95475290770e")
 		(property "Reference" "#PWR055"
-			(at 313.69 36.83 0)
+			(at 308.61 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,7 +15893,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 313.69 27.94 0)
+			(at 308.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15853,7 +15901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 33.02 0)
+			(at 308.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15862,7 +15910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 33.02 0)
+			(at 308.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15871,7 +15919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 313.69 33.02 0)
+			(at 308.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15893,7 +15941,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 377.19 35.56 0)
+		(at 372.11 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15902,7 +15950,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b73b3c2-54e8-4bcc-869f-115a0fcc371e")
 		(property "Reference" "C13"
-			(at 379.73 34.2963 0)
+			(at 374.65 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15911,7 +15959,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 379.73 36.8363 0)
+			(at 374.65 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +15968,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 377.19 35.56 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15929,7 +15977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 35.56 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15938,7 +15986,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 377.19 35.56 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15947,7 +15995,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 377.19 35.56 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16056,6 +16104,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 389.89 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6146ff0b-5f52-4f5b-b111-cbc16d864c81")
+		(property "Reference" "C20"
+			(at 392.43 34.2963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 392.43 36.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 389.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 389.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 389.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c05fe8-113f-47a0-b7cf-d6a3c928c7ca")
+		)
+		(pin "2"
+			(uuid "c266a67c-21d5-4048-8f56-591111dca267")
+		)
+		(instances
+			(project "yet-another-pico-gb-printer"
+				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 48.26 80.01 270)
 		(mirror x)
@@ -16134,7 +16261,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 351.79 35.56 0)
+		(at 346.71 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16143,7 +16270,7 @@
 		(fields_autoplaced yes)
 		(uuid "62bfb8eb-ebd7-4034-a67a-1764a67987a9")
 		(property "Reference" "C8"
-			(at 354.33 34.2963 0)
+			(at 349.25 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16152,7 +16279,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 354.33 36.8363 0)
+			(at 349.25 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16161,7 +16288,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 351.79 35.56 0)
+			(at 346.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16170,7 +16297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 35.56 0)
+			(at 346.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16179,7 +16306,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 351.79 35.56 0)
+			(at 346.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +16315,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 351.79 35.56 0)
+			(at 346.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16576,7 +16703,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 351.79 33.02 0)
+		(at 346.71 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16585,7 +16712,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ab8b161-bc2e-48e9-a576-88928199f74b")
 		(property "Reference" "#PWR062"
-			(at 351.79 36.83 0)
+			(at 346.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16594,7 +16721,7 @@
 			)
 		)
 		(property "Value" "+1V1"
-			(at 351.79 27.94 0)
+			(at 346.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,7 +16729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 33.02 0)
+			(at 346.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16611,7 +16738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 33.02 0)
+			(at 346.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16620,7 +16747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 351.79 33.02 0)
+			(at 346.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17765,7 +17892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 377.19 38.1 0)
+		(at 372.11 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17773,7 +17900,7 @@
 		(dnp no)
 		(uuid "8857827b-890d-48c4-b614-8f6eb02ac1ae")
 		(property "Reference" "#PWR076"
-			(at 377.19 44.45 0)
+			(at 372.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17782,7 +17909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 377.19 43.18 0)
+			(at 372.11 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17790,7 +17917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 38.1 0)
+			(at 372.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17799,7 +17926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 38.1 0)
+			(at 372.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +17935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 377.19 38.1 0)
+			(at 372.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18102,7 +18229,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 304.8 35.56 0)
+		(at 299.72 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18111,7 +18238,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b12958f-f0c7-49bd-aed3-925264ec674d")
 		(property "Reference" "C3"
-			(at 307.34 34.2963 0)
+			(at 302.26 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18120,7 +18247,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 307.34 36.8363 0)
+			(at 302.26 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18129,7 +18256,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 304.8 35.56 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18138,7 +18265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 304.8 35.56 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18147,7 +18274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 304.8 35.56 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18156,7 +18283,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 304.8 35.56 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18767,7 +18894,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 38.1 0)
+		(at 346.71 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18776,7 +18903,7 @@
 		(fields_autoplaced yes)
 		(uuid "9afc15e0-553f-4221-a888-0d5ddb0559d6")
 		(property "Reference" "#PWR070"
-			(at 351.79 44.45 0)
+			(at 346.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18785,7 +18912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 43.18 0)
+			(at 346.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18793,7 +18920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 38.1 0)
+			(at 346.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18802,7 +18929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 38.1 0)
+			(at 346.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18811,7 +18938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 38.1 0)
+			(at 346.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19581,7 +19708,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 360.68 35.56 0)
+		(at 355.6 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19590,7 +19717,7 @@
 		(fields_autoplaced yes)
 		(uuid "a87389a3-7630-4c4c-8a3a-d46ea7a33243")
 		(property "Reference" "C11"
-			(at 363.22 34.2963 0)
+			(at 358.14 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19599,7 +19726,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 363.22 36.8363 0)
+			(at 358.14 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19608,7 +19735,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 360.68 35.56 0)
+			(at 355.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19617,7 +19744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 35.56 0)
+			(at 355.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19626,7 +19753,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 360.68 35.56 0)
+			(at 355.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +19762,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 360.68 35.56 0)
+			(at 355.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20244,7 +20371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Bongo-Cat-Fidget-Toy:SW_SKRPACE010"
+		(property "Footprint" "yet-another-pico-gb-printer:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4"
 			(at 300.99 168.91 0)
 			(effects
 				(font
@@ -20271,7 +20398,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139797"
+		(property "LCSC" "C2686853"
 			(at 308.61 168.91 90)
 			(effects
 				(font
@@ -23140,7 +23267,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 386.08 35.56 0)
+		(at 381 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23149,7 +23276,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea53e73a-23da-48dd-b8c1-110b3eb12941")
 		(property "Reference" "C16"
-			(at 388.62 34.2963 0)
+			(at 383.54 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23158,7 +23285,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 388.62 36.8363 0)
+			(at 383.54 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23167,7 +23294,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 386.08 35.56 0)
+			(at 381 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23176,7 +23303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 386.08 35.56 0)
+			(at 381 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23185,7 +23312,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 386.08 35.56 0)
+			(at 381 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23194,7 +23321,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 386.08 35.56 0)
+			(at 381 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23219,7 +23346,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 38.1 0)
+		(at 308.61 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23228,7 +23355,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaff8134-8ed8-40f7-8bd4-1a69526abe64")
 		(property "Reference" "#PWR057"
-			(at 313.69 44.45 0)
+			(at 308.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23237,7 +23364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 43.18 0)
+			(at 308.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23245,7 +23372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 38.1 0)
+			(at 308.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23254,7 +23381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 38.1 0)
+			(at 308.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23263,7 +23390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 38.1 0)
+			(at 308.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23367,7 +23494,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 323.85 35.56 0)
+		(at 318.77 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23376,7 +23503,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec75ae42-5c03-4b3d-b26b-0134bd97994c")
 		(property "Reference" "C5"
-			(at 326.39 34.2963 0)
+			(at 321.31 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23385,7 +23512,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 326.39 36.8363 0)
+			(at 321.31 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23394,7 +23521,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 323.85 35.56 0)
+			(at 318.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23403,7 +23530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 35.56 0)
+			(at 318.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23412,7 +23539,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 323.85 35.56 0)
+			(at 318.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23421,7 +23548,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 323.85 35.56 0)
+			(at 318.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
