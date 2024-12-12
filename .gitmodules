@@ -1,3 +1,0 @@
-[submodule "NeoGB-Printer-ESP32/libraries/gekkio-kicad-libs"]
-	path = NeoGB-Printer-ESP32/libraries/gekkio-kicad-libs
-	url = https://github.com/Gekkio/gekkio-kicad-libs

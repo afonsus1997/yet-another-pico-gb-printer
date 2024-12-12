@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Bongo-Cat-Fidget-Toy")(type "KiCad")(uri "${KIPRJMOD}/libraries/Bongo-Cat-Fidget-Toy.pretty")(options "")(descr ""))
-  (lib (name "mod")(type "KiCad")(uri "${KIPRJMOD}/libraries/mod.pretty")(options "")(descr ""))
-  (lib (name "Gekkio_Connector")(type "KiCad")(uri "${KIPRJMOD}/libraries/gekkio-kicad-libs/Gekkio_Connector.pretty")(options "")(descr ""))
-)
