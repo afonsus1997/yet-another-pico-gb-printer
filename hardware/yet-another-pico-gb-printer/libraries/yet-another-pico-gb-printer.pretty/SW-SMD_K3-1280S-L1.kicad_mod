@@ -1,0 +1,232 @@
+(footprint "SW-SMD_K3-1280S-L1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "f33c675e-8bd6-4291-8474-8fc2468ece5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_K3-1280S-L1"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "908ae791-70d2-4cbe-b1b1-3be287c3c1bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "038c6b02-572a-47b8-9dd4-5676499e6b39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24da4f38-f80b-4648-9ce8-3a7c0752c617")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e09ee7e-b3f0-4353-a4d0-e2f5106ec9d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.36 -4.55)
+		(end 1.36 -3.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8d6c8ea-ed04-447b-9d3b-216b619fafbf")
+	)
+	(fp_line
+		(start 1.36 -4.55)
+		(end 4.86 -4.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11ae285d-6a45-4b8e-a3ea-5bf67244300e")
+	)
+	(fp_line
+		(start 1.36 -1.67)
+		(end 1.36 -0.83)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4be45ce-7e6b-4c58-8299-6caffc72216e")
+	)
+	(fp_line
+		(start 1.36 0.83)
+		(end 1.36 1.67)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69547778-ce10-4931-8a5e-c0f38c30d80b")
+	)
+	(fp_line
+		(start 1.36 3.33)
+		(end 1.36 4.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a865ee7b-ffe0-49e7-a5bb-b85bbe322e47")
+	)
+	(fp_line
+		(start 4.86 -4.55)
+		(end 4.86 4.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "016becd4-9654-48d6-b747-a134f9ae4d59")
+	)
+	(fp_line
+		(start 4.86 4.55)
+		(end 1.36 4.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "768d3ebf-3472-485d-a8ec-cab90a7e744c")
+	)
+	(fp_line
+		(start 4.88 -1.78)
+		(end 8.95 -1.78)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da6ea604-a4f7-4e52-a78d-f20c7fa68c51")
+	)
+	(fp_line
+		(start 8.95 -1.78)
+		(end 8.95 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5c06c56-54d8-46b8-b230-96f584f7a7cb")
+	)
+	(fp_line
+		(start 8.95 0)
+		(end 4.88 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "beb794b9-c2a1-43cb-b1f9-5455183d7feb")
+	)
+	(fp_circle
+		(center -0.85 -4.52)
+		(end -0.82 -4.52)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ef76dd79-0af3-4c11-b220-322550d091e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c3aa8d9f-065d-4496-affd-be6f889a2196")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 3.1 -3.4)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f21cc3b-9af1-41f8-aeba-f68b7e003c66")
+	)
+	(pad "" thru_hole circle
+		(at 3.1 3.4)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ef86361-461b-4601-9fdf-fdc6f9fafc3d")
+	)
+	(pad "1" smd rect
+		(at 0.15 -2.5)
+		(size 2.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a38ddca-5d05-42d0-99f9-862049f22b97")
+	)
+	(pad "2" smd rect
+		(at 0.15 0)
+		(size 2.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "093b9b1d-2e0b-4eb0-8b7e-ad7e4ce453c9")
+	)
+	(pad "3" smd rect
+		(at 0.15 2.5)
+		(size 2.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf58baa8-bd3e-48aa-a015-f3df4dcbe9f1")
+	)
+	(model "${KIPRJMOD}/libraries/3d/SW-SMD_K3-1280S-L1.step"
+		(offset
+			(xyz 3.1 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

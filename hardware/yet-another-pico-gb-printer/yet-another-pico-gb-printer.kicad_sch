@@ -4786,108 +4786,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad_MP"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad_MP"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection as pad named MP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Memory_Flash:W25Q32JVSS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6735,126 +6633,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -7397,6 +7175,12 @@
 		(uuid "2f6f690c-3717-4820-bd8a-501e71f18511")
 	)
 	(junction
+		(at 306.07 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31de8d36-48a4-4f8c-bc49-19d99e83bbf9")
+	)
+	(junction
 		(at 182.88 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7413,6 +7197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38e8fd86-53e1-4970-8b04-0ff5cc3e794e")
+	)
+	(junction
+		(at 250.19 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38fe46f2-ec56-4f94-8d64-cda69c606a70")
 	)
 	(junction
 		(at 364.49 163.83)
@@ -7449,12 +7239,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e47dfe4-d1ec-43c8-b27b-e5e3f741b1e4")
-	)
-	(junction
-		(at 162.56 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54ed0c01-f6ac-4d30-9965-73a191811e6a")
 	)
 	(junction
 		(at 180.34 38.1)
@@ -7649,12 +7433,6 @@
 		(uuid "aec2034d-35db-4390-9521-95f32db69656")
 	)
 	(junction
-		(at 306.07 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af79ae19-9c4c-4f1f-88aa-5d789ddfda51")
-	)
-	(junction
 		(at 237.49 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7715,6 +7493,12 @@
 		(uuid "cf149a8d-cf61-4d9f-91e7-58357edc30ac")
 	)
 	(junction
+		(at 162.56 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4c161f6-5b76-41f2-8624-3375d6a1f4e9")
+	)
+	(junction
 		(at 189.23 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7751,6 +7535,12 @@
 		(uuid "ee33fdea-fa51-49c0-b3a9-ff97a1043b44")
 	)
 	(junction
+		(at 250.19 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eee25d28-9a03-4dc3-b134-4dc3d12d92ea")
+	)
+	(junction
 		(at 78.74 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7773,7 +7563,7 @@
 		(uuid "4a3fdf6c-3c18-4849-9468-bf447c063d5b")
 	)
 	(no_connect
-		(at 209.55 167.64)
+		(at 261.62 165.1)
 		(uuid "550e9069-2b6c-4932-8cd0-646702eac11a")
 	)
 	(no_connect
@@ -7781,7 +7571,11 @@
 		(uuid "63d6478e-b060-4653-a6ea-b75eb8cae928")
 	)
 	(no_connect
-		(at 209.55 175.26)
+		(at 157.48 43.18)
+		(uuid "640babdf-0fd3-4094-84c6-a25c305255be")
+	)
+	(no_connect
+		(at 261.62 172.72)
 		(uuid "9be9cf1a-727c-4f79-b3bc-4f7115e89354")
 	)
 	(no_connect
@@ -7795,10 +7589,6 @@
 	(no_connect
 		(at 50.8 173.99)
 		(uuid "cc342241-df72-4ad6-a094-0460759a5fec")
-	)
-	(no_connect
-		(at 157.48 43.18)
-		(uuid "d16c004a-9cb9-4a93-9001-05888cc26864")
 	)
 	(wire
 		(pts
@@ -8032,7 +7822,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 73.66) (xy 323.85 71.12)
+			(xy 318.77 73.66) (xy 318.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8182,13 +7972,23 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 73.66) (xy 323.85 73.66)
+			(xy 318.77 73.66) (xy 334.01 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ecfa887-1a87-49b5-8e7d-f982acb2eee5")
+	)
+	(wire
+		(pts
+			(xy 250.19 172.72) (xy 250.19 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efd72d5-db0b-435d-88c2-53fead3c1b7b")
 	)
 	(wire
 		(pts
@@ -8252,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 71.12) (xy 316.23 71.12)
+			(xy 299.72 71.12) (xy 311.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8299,6 +8099,16 @@
 			(type default)
 		)
 		(uuid "24c9b72d-a870-4a65-b334-54ab640bb269")
+	)
+	(wire
+		(pts
+			(xy 250.19 167.64) (xy 261.62 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250ab70d-7511-4c93-b163-0f68f692352c")
 	)
 	(wire
 		(pts
@@ -8402,7 +8212,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 76.2) (xy 316.23 76.2)
+			(xy 299.72 76.2) (xy 311.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8569,6 +8379,16 @@
 			(type default)
 		)
 		(uuid "3eec95c8-1eca-427e-beb4-00834c10e9d3")
+	)
+	(wire
+		(pts
+			(xy 226.06 170.18) (xy 242.57 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9ce645-6b60-4cfe-aecb-f5857f122657")
 	)
 	(wire
 		(pts
@@ -8872,6 +8692,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 170.18) (xy 261.62 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9684a6-dc87-4396-b463-69a043c95407")
+	)
+	(wire
+		(pts
 			(xy 68.58 39.37) (xy 68.58 48.26)
 		)
 		(stroke
@@ -8929,6 +8759,16 @@
 			(type default)
 		)
 		(uuid "601827cf-7f10-4a59-a57b-39dfcadb10ab")
+	)
+	(wire
+		(pts
+			(xy 250.19 165.1) (xy 250.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f2304e-fe80-4b13-88fb-8ed7549920c7")
 	)
 	(wire
 		(pts
@@ -8992,16 +8832,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 170.18) (xy 209.55 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6cb538-7add-4401-b151-a21adf827b69")
-	)
-	(wire
-		(pts
 			(xy 48.26 39.37) (xy 68.58 39.37)
 		)
 		(stroke
@@ -9032,7 +8862,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 177.8) (xy 209.55 177.8)
+			(xy 252.73 175.26) (xy 261.62 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9382,6 +9212,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 187.96) (xy 266.7 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bfcaca8-37ef-422d-9d0d-7ea42166e327")
+	)
+	(wire
+		(pts
 			(xy 195.58 57.15) (xy 200.66 57.15)
 		)
 		(stroke
@@ -9622,6 +9462,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 172.72) (xy 250.19 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3920a2-ff61-4d2a-8249-0521be47b615")
+	)
+	(wire
+		(pts
 			(xy 69.85 153.67) (xy 69.85 154.94)
 		)
 		(stroke
@@ -9629,16 +9479,6 @@
 			(type default)
 		)
 		(uuid "9f53e2be-18b9-4e7a-a4f6-dd4da108a058")
-	)
-	(wire
-		(pts
-			(xy 157.48 38.1) (xy 162.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fb61292-994b-4d38-aa1a-597f22c7bb26")
 	)
 	(wire
 		(pts
@@ -9802,6 +9642,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 165.1) (xy 250.19 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1717c7-188d-49db-a504-8558f2549da1")
+	)
+	(wire
+		(pts
 			(xy 24.13 29.21) (xy 24.13 30.48)
 		)
 		(stroke
@@ -9842,7 +9692,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 71.12) (xy 323.85 71.12)
+			(xy 316.23 71.12) (xy 318.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9899,6 +9749,16 @@
 			(type default)
 		)
 		(uuid "b52b68b4-d3c0-46e3-819b-3ccb138e5a37")
+	)
+	(wire
+		(pts
+			(xy 226.06 167.64) (xy 242.57 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d0ad37-8081-4946-adb2-98c6ed79165c")
 	)
 	(wire
 		(pts
@@ -9972,6 +9832,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 167.64) (xy 250.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdddb63a-c100-4819-83c1-03a8ebaef370")
+	)
+	(wire
+		(pts
 			(xy 377.19 209.55) (xy 377.19 212.09)
 		)
 		(stroke
@@ -10009,6 +9879,16 @@
 			(type default)
 		)
 		(uuid "c068ea0f-4043-4fbf-906d-8dd9f40e39a7")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 162.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06a0046-4eed-4e13-af35-13fb3387fea7")
 	)
 	(wire
 		(pts
@@ -10152,7 +10032,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 180.34) (xy 209.55 180.34)
+			(xy 259.08 177.8) (xy 261.62 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10182,7 +10062,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 76.2) (xy 334.01 76.2)
+			(xy 316.23 76.2) (xy 334.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10422,16 +10302,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 172.72) (xy 209.55 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc9077b7-aef7-40c2-9c0d-53e3130d6c1a")
-	)
-	(wire
-		(pts
 			(xy 233.68 88.9) (xy 237.49 88.9)
 		)
 		(stroke
@@ -10499,6 +10369,16 @@
 			(type default)
 		)
 		(uuid "df486351-09db-49ab-bebe-f046d4965a7e")
+	)
+	(wire
+		(pts
+			(xy 226.06 165.1) (xy 234.95 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df566626-4ba1-452e-8b62-18df41fb2fef")
 	)
 	(wire
 		(pts
@@ -10719,6 +10599,26 @@
 			(type default)
 		)
 		(uuid "ee84ca41-0f02-47a5-bab1-0bbce2592551")
+	)
+	(wire
+		(pts
+			(xy 226.06 172.72) (xy 234.95 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19395fa-292c-4a23-9202-1df02820a526")
+	)
+	(wire
+		(pts
+			(xy 247.65 170.18) (xy 250.19 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f252ab66-a08a-4e5b-add4-58641aa68ec6")
 	)
 	(wire
 		(pts
@@ -10976,6 +10876,28 @@
 		)
 		(uuid "1052898f-753b-4850-aa9c-188e098590fc")
 	)
+	(label "GB_SO"
+		(at 226.06 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16c85ffe-c92d-4697-9711-041dfba466f2")
+	)
+	(label "GB_SI"
+		(at 226.06 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16d672dd-c216-4e3d-9d2a-ac3c230024d7")
+	)
 	(label "QSPI_SCLK"
 		(at 339.09 212.09 0)
 		(fields_autoplaced yes)
@@ -10997,17 +10919,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ac8dce3-2084-43eb-b46f-837676ca4db2")
-	)
-	(label "GB_SI"
-		(at 200.66 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2de2641e-c6d0-44a5-b66e-1c6cb274371b")
 	)
 	(label "QSPI_SD2"
 		(at 323.85 93.98 0)
@@ -11076,7 +10987,7 @@
 		(uuid "433d61e9-4666-49cf-91f1-0924c8c66f96")
 	)
 	(label "USB_D_N"
-		(at 304.8 76.2 0)
+		(at 299.72 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11096,6 +11007,39 @@
 			(justify left bottom)
 		)
 		(uuid "46cfb35c-7fb0-495f-b9fc-891211ede72c")
+	)
+	(label "PICO_USB_D_P"
+		(at 318.77 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fce4913-a73d-4644-9554-ee8abb0f0912")
+	)
+	(label "GB_SO"
+		(at 226.06 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b8c0c5b-37ab-49a5-805e-6252801bbfb5")
+	)
+	(label "PICO_USB_D_N"
+		(at 318.77 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e1b97ee-a8c0-48de-9a7b-89a862241b5f")
 	)
 	(label "LED0"
 		(at 384.81 106.68 0)
@@ -11219,7 +11163,7 @@
 		(uuid "7f59a32f-3e6d-4719-9e0e-365207fd3c32")
 	)
 	(label "GB_SC"
-		(at 200.66 177.8 0)
+		(at 252.73 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11515,17 +11459,6 @@
 		)
 		(uuid "cf5760c8-0037-4201-8aaa-29af4b7af88d")
 	)
-	(label "GB_SO"
-		(at 200.66 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d091c2bc-3406-4f01-b7e7-b4876f686d06")
-	)
 	(label "OLED_SCL"
 		(at 170.18 252.73 0)
 		(fields_autoplaced yes)
@@ -11570,8 +11503,19 @@
 		)
 		(uuid "deb8125f-110d-482f-8c2c-4ab7856e6e68")
 	)
+	(label "GB_SI"
+		(at 226.06 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1703fb3-32ae-473c-87bd-6ffd2ccfb691")
+	)
 	(label "USB_D_P"
-		(at 304.8 71.12 0)
+		(at 299.72 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12225,7 +12169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 363.22 35.56 0)
 			(effects
 				(font
@@ -12447,7 +12391,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 187.96 0)
+		(at 266.7 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12455,7 +12399,7 @@
 		(dnp no)
 		(uuid "0e9447b7-6061-4371-8195-d3d831827a63")
 		(property "Reference" "#PWR056"
-			(at 214.63 194.31 0)
+			(at 266.7 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 193.04 0)
+			(at 266.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +12416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 187.96 0)
+			(at 266.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +12425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 187.96 0)
+			(at 266.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12490,7 +12434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 187.96 0)
+			(at 266.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,7 +12518,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C106231"
 			(at 189.23 87.63 90)
 			(effects
 				(font
@@ -12593,73 +12537,6 @@
 			(project "NeoGB-Printer-ESP32"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 118.11 95.25 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13b01d37-77d3-49c8-b9ee-0750d18c4523")
-		(property "Reference" "H3"
-			(at 120.65 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2"
-			(at 120.65 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 118.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 118.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "a38500ec-3890-4fe8-970a-bcf7c5674ef9")
-		)
-		(instances
-			(project "yet-another-pico-gb-printer"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12800,6 +12677,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5337205"
+			(at 173.99 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "40997bd6-ec9c-4fb7-8f5c-f8afe54650f6")
 		)
@@ -12813,72 +12699,6 @@
 			(project ""
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1647d5c9-fe88-4117-9eaf-28d06a222f62")
-		(property "Reference" "#PWR030"
-			(at 118.11 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "425ab845-c1f8-4385-a452-8935f0965e77")
-		)
-		(instances
-			(project "yet-another-pico-gb-printer"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13262,7 +13082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -13298,7 +13118,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C103199 "
+		(property "LCSC" "C60490"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -13377,7 +13197,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 336.55 35.56 0)
 			(effects
 				(font
@@ -13465,7 +13285,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C106231"
 			(at 189.23 52.07 90)
 			(effects
 				(font
@@ -13698,7 +13518,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C106231"
 			(at 189.23 95.25 90)
 			(effects
 				(font
@@ -13777,7 +13597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 308.61 35.56 0)
 			(effects
 				(font
@@ -13871,7 +13691,7 @@
 		(at 153.67 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -14267,7 +14087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 204.47 0)
 			(effects
 				(font
@@ -14303,7 +14123,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at 165.1 204.47 90)
 			(effects
 				(font
@@ -14376,6 +14196,15 @@
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 173.99 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5337205"
+			(at 173.99 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,72 +14726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 102.87 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ac1f56b-a83b-406b-b600-2ec2cda53db7")
-		(property "Reference" "#PWR028"
-			(at 102.87 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4321f8b7-1825-4bff-831b-fffd1cf28f88")
-		)
-		(instances
-			(project "yet-another-pico-gb-printer"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 69.85 203.2 0)
 		(unit 1)
@@ -15149,7 +14912,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C14445"
 			(at 398.78 35.56 0)
 			(effects
 				(font
@@ -15264,7 +15027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.88 204.47 0)
 			(effects
 				(font
@@ -15300,7 +15063,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at 182.88 204.47 90)
 			(effects
 				(font
@@ -15540,7 +15303,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5126239"
 			(at 237.49 41.91 0)
 			(effects
 				(font
@@ -15617,7 +15380,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107045"
+		(property "LCSC" "C107002"
 			(at 304.8 111.76 90)
 			(effects
 				(font
@@ -15636,91 +15399,6 @@
 			(project "NeoGB-Printer-ESP32"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 306.07 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4eae6963-c27b-4d74-a5c7-2cbca699e1e6")
-		(property "Reference" "R25"
-			(at 302.514 178.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 302.514 179.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 306.07 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 306.07 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 306.07 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 306.07 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 306.07 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c20a7175-1ec1-4fa1-9972-7c0c024e372f")
-		)
-		(pin "2"
-			(uuid "f8fb3f81-f8d2-4cd9-a304-e8496db1bc22")
-		)
-		(instances
-			(project "NeoGB-Printer-ESP32"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -15794,16 +15472,16 @@
 	)
 	(symbol
 		(lib_id "Gekkio_Connector_Specialized:GameBoy_LinkPort")
-		(at 214.63 175.26 0)
+		(at 266.7 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "53000c86-b5d7-486a-a2ad-430f0f74761d")
 		(property "Reference" "J5"
-			(at 218.44 173.9899 0)
+			(at 270.51 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15812,7 +15490,7 @@
 			)
 		)
 		(property "Value" "GameBoy_LinkPort"
-			(at 218.44 176.5299 0)
+			(at 270.51 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,8 +15498,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Gekkio_Connector:GameBoy_LinkPort_MGB_Horizontal"
-			(at 212.09 182.88 0)
+		(property "Footprint" "yet-another-pico-gb-printer:GBA-LINK"
+			(at 264.16 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15830,7 +15508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 182.88 0)
+			(at 264.16 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15839,7 +15517,7 @@
 			)
 		)
 		(property "Description" "Game Boy link port"
-			(at 214.63 175.26 0)
+			(at 266.7 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16150,7 +15828,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C14445"
 			(at 327.66 35.56 0)
 			(effects
 				(font
@@ -16295,7 +15973,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 372.11 35.56 0)
 			(effects
 				(font
@@ -16344,7 +16022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -16380,7 +16058,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at 165.1 147.32 90)
 			(effects
 				(font
@@ -16459,7 +16137,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 389.89 35.56 0)
 			(effects
 				(font
@@ -16478,6 +16156,92 @@
 			(project "yet-another-pico-gb-printer"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 245.11 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61755f0e-cbf4-4322-83f8-76f56d915727")
+		(property "Reference" "R15"
+			(at 245.11 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 245.11 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 245.11 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 245.11 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 245.11 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
+			(at 245.11 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65daa248-56e5-4ba4-9877-e653cfde1437")
+		)
+		(pin "2"
+			(uuid "88bbfdd2-96f3-4acb-906b-03da475672bd")
+		)
+		(instances
+			(project "yet-another-pico-gb-printer"
+				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16615,7 +16379,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 346.71 35.56 0)
 			(effects
 				(font
@@ -16767,7 +16531,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106231"
 			(at 175.26 38.1 90)
 			(effects
 				(font
@@ -16924,72 +16688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68ef212b-94d3-4e50-b4c6-d7b1c43e5bf9")
-		(property "Reference" "#PWR029"
-			(at 110.49 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e574d568-2be4-405c-8dd9-a6e6b745e492")
-		)
-		(instances
-			(project "yet-another-pico-gb-printer"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 87.63 209.55 180)
 		(unit 1)
@@ -17129,72 +16827,6 @@
 			(project "NeoGB-Printer-ESP32"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c090c43-b754-4a2d-bb90-bb12d714fdfb")
-		(property "Reference" "#PWR031"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0ba297e-bfb6-469f-8a1e-c18e20298070")
-		)
-		(instances
-			(project "yet-another-pico-gb-printer"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17533,7 +17165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.88 147.32 0)
 			(effects
 				(font
@@ -17569,7 +17201,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at 182.88 147.32 90)
 			(effects
 				(font
@@ -17648,7 +17280,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C478888 "
+		(property "LCSC" "C60474"
 			(at 372.11 168.91 0)
 			(effects
 				(font
@@ -18171,17 +17803,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 110.49 95.25 0)
+		(lib_id "Device:R_Small_US")
+		(at 306.07 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e05d8ce-5186-47ce-bb9d-a30813338d49")
-		(property "Reference" "H2"
-			(at 113.03 92.7099 0)
+		(uuid "7f351154-dc96-4b78-aeed-81d9758dcc63")
+		(property "Reference" "R19"
+			(at 308.61 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,8 +17821,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
-			(at 113.03 95.2499 0)
+		(property "Value" "10k"
+			(at 308.61 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,8 +17830,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 110.49 95.25 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 306.07 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18208,7 +17840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 95.25 0)
+			(at 306.07 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18216,8 +17848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 110.49 95.25 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 306.07 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18225,13 +17857,34 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "eee1ba41-8132-4da9-b506-581e07b28a4a")
+		(property "Field4" ""
+			(at 306.07 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 306.07 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114a0ca4-fb6e-4a59-b48b-c66481c95546")
+		)
+		(pin "2"
+			(uuid "9a90d020-a864-4f2a-85aa-b0aa2937c732")
 		)
 		(instances
 			(project "yet-another-pico-gb-printer"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "H2")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -18301,7 +17954,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C106231"
 			(at 189.23 44.45 90)
 			(effects
 				(font
@@ -18456,77 +18109,11 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 306.07 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "888c4790-0cff-4916-9a0f-9d6e2aa7f304")
-		(property "Reference" "#PWR044"
-			(at 306.07 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 306.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 306.07 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 306.07 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 306.07 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c72025b-9c78-48f5-9af8-e4f1348df6e2")
-		)
-		(instances
-			(project "NeoGB-Printer-ESP32"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 201.93 254 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "88ac1c41-e32d-4466-9b50-d14250c0e17c")
@@ -18782,7 +18369,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 299.72 35.56 0)
 			(effects
 				(font
@@ -18896,7 +18483,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 318.77 76.2 90)
+		(at 313.69 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18904,7 +18491,7 @@
 		(dnp no)
 		(uuid "8caa0fa1-07a3-4a49-b247-d0cb758bf5e8")
 		(property "Reference" "R40"
-			(at 318.77 78.74 90)
+			(at 313.69 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18912,7 +18499,7 @@
 			)
 		)
 		(property "Value" "27.4"
-			(at 318.77 81.28 90)
+			(at 313.69 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18920,7 +18507,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 318.77 76.2 0)
+			(at 313.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18929,7 +18516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 76.2 0)
+			(at 313.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18938,7 +18525,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 318.77 76.2 0)
+			(at 313.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18947,7 +18534,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 318.77 76.2 0)
+			(at 313.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18955,8 +18542,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C274349"
-			(at 318.77 76.2 90)
+		(property "LCSC" "C172043"
+			(at 313.69 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18965,7 +18552,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 318.77 76.2 90)
+			(at 313.69 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19148,6 +18735,92 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 237.49 172.72 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9340e525-4c92-4562-ac1f-1e646685d3eb")
+		(property "Reference" "R18"
+			(at 237.49 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 237.49 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 237.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 237.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
+			(at 237.49 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56624167-6928-4631-85a6-0c55e55bf678")
+		)
+		(pin "2"
+			(uuid "605d8a36-0f8b-4568-8291-5c5a655e676f")
+		)
+		(instances
+			(project "yet-another-pico-gb-printer"
+				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 326.39 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19247,7 +18920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.88 176.53 0)
 			(effects
 				(font
@@ -19283,7 +18956,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at 182.88 176.53 90)
 			(effects
 				(font
@@ -19332,7 +19005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 176.53 0)
 			(effects
 				(font
@@ -19368,7 +19041,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at 165.1 176.53 90)
 			(effects
 				(font
@@ -19460,7 +19133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 180.34 0)
+		(at 259.08 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19468,7 +19141,7 @@
 		(dnp no)
 		(uuid "9d31ff52-6aee-4a50-847a-4f0e900a63b7")
 		(property "Reference" "#PWR063"
-			(at 207.01 186.69 0)
+			(at 259.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19477,7 +19150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 185.42 0)
+			(at 259.08 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19485,7 +19158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 180.34 0)
+			(at 259.08 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19494,7 +19167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 180.34 0)
+			(at 259.08 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19503,7 +19176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 180.34 0)
+			(at 259.08 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19951,7 +19624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105872"
 			(at 78.74 157.48 0)
 			(effects
 				(font
@@ -20261,7 +19934,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C14445"
 			(at 355.6 35.56 0)
 			(effects
 				(font
@@ -20288,7 +19961,6 @@
 	(symbol
 		(lib_id "Switch:SW_SPDT_321")
 		(at 152.4 40.64 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20296,7 +19968,7 @@
 		(dnp no)
 		(uuid "aecdc9a0-e485-4f5d-846e-f1e07a26c277")
 		(property "Reference" "SW3"
-			(at 152.4 49.53 0)
+			(at 152.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20305,7 +19977,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_321"
-			(at 152.4 46.99 0)
+			(at 152.4 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20313,8 +19985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Bongo-Cat-Fidget-Toy:SW-SMD_SK-3245S-L1-A-1"
-			(at 152.4 30.48 0)
+		(property "Footprint" "yet-another-pico-gb-printer:SW-SMD_K3-1280S-L1"
+			(at 152.4 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20323,7 +19995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 33.02 0)
+			(at 152.4 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20340,7 +20012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C405951"
+		(property "LCSC" "C223845"
 			(at 152.4 40.64 0)
 			(effects
 				(font
@@ -20431,7 +20103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3016043"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -21073,74 +20745,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 293.37 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b78efbfd-1cd6-4340-bc4d-1306254f4082")
-		(property "Reference" "#PWR022"
-			(at 293.37 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 293.37 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 293.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 293.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbbb33d1-777f-43a2-a10e-83f3698761a6")
-		)
-		(instances
-			(project "NeoGB-Printer-ESP32"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 318.77 71.12 90)
+		(at 313.69 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21149,7 +20755,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ca20a8-e04d-4e17-aa2d-735f7caaf455")
 		(property "Reference" "R31"
-			(at 318.77 64.77 90)
+			(at 313.69 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21157,7 +20763,7 @@
 			)
 		)
 		(property "Value" "27.4"
-			(at 318.77 67.31 90)
+			(at 313.69 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21165,7 +20771,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 318.77 71.12 0)
+			(at 313.69 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21174,7 +20780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 71.12 0)
+			(at 313.69 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21183,7 +20789,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 318.77 71.12 0)
+			(at 313.69 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21192,7 +20798,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 318.77 71.12 0)
+			(at 313.69 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21200,8 +20806,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C274349"
-			(at 318.77 71.12 90)
+		(property "LCSC" "C172043"
+			(at 313.69 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21286,7 +20892,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106231"
 			(at 257.81 81.28 90)
 			(effects
 				(font
@@ -21335,7 +20941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 58.42 0)
 			(effects
 				(font
@@ -21371,7 +20977,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at 87.63 58.42 90)
 			(effects
 				(font
@@ -21451,6 +21057,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5337205"
+			(at 173.99 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4d5df33a-4dc6-4971-aaa2-1e92c9252d4d")
 		)
@@ -21464,6 +21079,72 @@
 			(project "NeoGB-Printer-ESP32"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 293.37 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb38eba8-9003-4c15-b60b-8a8c7ea897f1")
+		(property "Reference" "#PWR022"
+			(at 293.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 293.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 293.37 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d56d665-732e-4b44-a318-167c8a9e5d1d")
+		)
+		(instances
+			(project "yet-another-pico-gb-printer"
+				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -21650,6 +21331,15 @@
 			)
 		)
 		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"
+			(at 68.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C625600"
 			(at 68.58 55.88 0)
 			(effects
 				(font
@@ -22079,7 +21769,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 377.19 207.01 0)
 			(effects
 				(font
@@ -22379,73 +22069,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 102.87 95.25 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb15acd9-a594-4c66-958d-f942076f00a7")
-		(property "Reference" "H1"
-			(at 105.41 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2"
-			(at 105.41 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 102.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 102.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "28fb610c-6c3f-463d-a224-87ed3ea8d20e")
-		)
-		(instances
-			(project ""
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 180.34 88.9 0)
 		(unit 1)
@@ -22663,7 +22286,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105872"
 			(at 69.85 157.48 0)
 			(effects
 				(font
@@ -22692,7 +22315,7 @@
 		(at 162.56 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -22776,6 +22399,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 306.07 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d477177e-82a1-4e43-b7cd-2f39087b753b")
+		(property "Reference" "#PWR028"
+			(at 306.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 306.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 306.07 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a7ad756-05b4-4ee8-b0e7-bd15634f4135")
+		)
+		(instances
+			(project "yet-another-pico-gb-printer"
+				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 326.39 134.62 90)
 		(unit 1)
@@ -22846,73 +22535,6 @@
 			(project "NeoGB-Printer-ESP32"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 125.73 95.25 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da2df00c-8674-4976-b536-598ce8dd8e58")
-		(property "Reference" "H4"
-			(at 128.27 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2"
-			(at 128.27 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "190e6472-fadd-45df-8041-6d3203b3fd6e")
-		)
-		(instances
-			(project "yet-another-pico-gb-printer"
-				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -23200,7 +22822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106231"
 			(at 257.81 38.1 90)
 			(effects
 				(font
@@ -23519,6 +23141,92 @@
 			(project "NeoGB-Printer-ESP32"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 245.11 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e75df4dd-f637-46c6-b59e-aefd693e6ddd")
+		(property "Reference" "R17"
+			(at 245.11 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 245.11 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 245.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 245.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 245.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
+			(at 245.11 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "852b8279-2143-4c52-b28b-3c3b13fe103e")
+		)
+		(pin "2"
+			(uuid "74b3f7d4-2779-4b0c-8bca-d90ca343815c")
+		)
+		(instances
+			(project "yet-another-pico-gb-printer"
+				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -23954,7 +23662,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 381 35.56 0)
 			(effects
 				(font
@@ -24181,7 +23889,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 318.77 35.56 0)
 			(effects
 				(font
@@ -24409,7 +24117,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107045"
+		(property "LCSC" "C107002"
 			(at 304.8 121.92 90)
 			(effects
 				(font
@@ -24458,7 +24166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 68.58 0)
 			(effects
 				(font
@@ -24494,7 +24202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C145071"
 			(at 87.63 68.58 90)
 			(effects
 				(font
@@ -24579,6 +24287,92 @@
 			(project "NeoGB-Printer-ESP32"
 				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 237.49 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f9b2f366-9b8d-4e81-be2c-49a0210b1b12")
+		(property "Reference" "R16"
+			(at 237.49 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 237.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 237.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 237.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
+			(at 237.49 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eaf244e-569f-43a9-bea6-95ac926f76bf")
+		)
+		(pin "2"
+			(uuid "4a1130ca-108c-4a0d-8c2a-07376fee492c")
+		)
+		(instances
+			(project "yet-another-pico-gb-printer"
+				(path "/efc3093e-0401-4f67-bb0c-fd3b0cc13eba"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -24712,7 +24506,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106231"
 			(at 175.26 81.28 90)
 			(effects
 				(font
