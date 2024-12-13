@@ -151,7 +151,7 @@
 		(remove_unused_layers no)
 		(uuid "37db0390-9a01-46a5-afbc-ad1cbaae159f")
 	)
-	(model "${KIPRJMOD}/libraries/3d/oled2.step"
+	(model "${KIPRJMOD}/libraries/3d/OLED_0.91_128x32.stp"
 		(offset
 			(xyz 20 -6.5 2.56)
 		)
