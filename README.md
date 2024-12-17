@@ -3,4 +3,4 @@
 
 
 ## Acknowledgements 
-Based on the [pico-gb-printer](https://github.com/untoxa/pico-gb-printer) by [untoxa](https://github.com/untoxa)
+Based on the [The-TinyGB-Printer](https://github.com/Raphael-Boichot/The-TinyGB-Printer) by [Raphael-Boichot](https://github.com/Raphael-Boichot)
