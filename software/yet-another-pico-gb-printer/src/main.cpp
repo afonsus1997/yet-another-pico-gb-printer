@@ -7,6 +7,7 @@ void setup() {
   Serial.println("Starting up...");
 
   IoInit();
+  LedInit();
   OledInit();
 }
 

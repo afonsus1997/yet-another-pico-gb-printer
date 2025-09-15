@@ -22,9 +22,7 @@ typedef struct  {
 
 
 typedef enum {
-  kIoButtonTop = 0,
-  kIoButtonMid = 1,
-  kIoButtonBot = 2
+  kIoButton = 0,
 } io_button_e;
 
 typedef enum {
