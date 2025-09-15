@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 #define kIoButtonAmmount 1
-#define kIoPinAmmountSize 1
+#define kIoPinAmmountSize 5
 #define kIoAnalogInAmmount 1
 
 typedef struct io_pin_config {

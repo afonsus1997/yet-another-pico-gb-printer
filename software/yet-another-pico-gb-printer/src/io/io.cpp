@@ -1,6 +1,7 @@
 
 #include "io.h"
 
+
 uint16_t io_analog_readings[kIoAnalogInAmmount];
 float io_current_volume = 0;
 unsigned long io_last_volume_debounce_time = 0;
@@ -57,7 +58,7 @@ IoStatus_t IoCheckButton(io_button_t &button) {
     button.state = reading;
     if (button.state == LOW) {
       button.activated = true;
-      Serial.printf("%s Button pressed!\n", button.pin == kIoButtonTopPin ? "Top" : button.pin == kIoButtonMidPin ? "Mid" : "Bot");
+      // Serial.printf("%s Button pressed!\n", button.pin == kIoButtonTop ? "Top" : button.pin == kIoButtonMidPin ? "Mid" : "Bot");
     }
   }
   button.lastState = reading;

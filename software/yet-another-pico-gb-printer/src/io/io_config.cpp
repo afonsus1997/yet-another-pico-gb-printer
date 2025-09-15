@@ -32,7 +32,7 @@ const uint8_t kIoGbpScPin = 2;
 const uint8_t kIoLedStatusPin = 16; 
 
 /* RNG Pin*/
-const uint8_t kIoRngPin = A1;
+const uint8_t kIoRngPin = 0;
 
  io_pin_config_t io_pin_config[kIoPinAmmountSize] = {
   /* Buttons */
@@ -47,7 +47,7 @@ const uint8_t kIoRngPin = A1;
 
 
  io_button_t io_buttons[kIoButtonAmmount] = {
-  {kIoButtonPin, HIGH, HIGH, 0, false}
+  {kIoButtonPin, HIGH, HIGH, 0, 0}
 };
 
 //  const uint8_t io_analog_pins[kIoAnalogInAmmount] = { kIoPotPin };

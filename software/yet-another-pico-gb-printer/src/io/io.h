@@ -1,7 +1,7 @@
 
 #ifndef __IO__H__
 #define __IO__H__
-
+#include <Arduino.h>
 #include <Wire.h>
 #include "io_config.h"
 
